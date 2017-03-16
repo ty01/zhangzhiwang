@@ -1,0 +1,43 @@
+body{
+	background-color: #eee;
+}
+.information-title{
+	color: white;
+	background-color: #444;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.information-main-list{
+	padding: 20px 20px;
+	background-color: white;
+	margin-top: 35px;
+}
+
+.information-right h2{
+	line-height: 30px;
+	font-size: 23px;
+	
+}
+.information-right{
+	margin-top: 35px;
+	background-color: white;
+}
+.information-right-list{
+	padding-bottom: 15px;
+}
+
+
+footer{
+	margin-top: 50px;
+}
+
+
+
+@media(max-width: 768px){
+	.information-main-list img{
+		width: 120px;
+	}
+	.information-main-list h4{
+		font-size: 16px;
+	}
+}
